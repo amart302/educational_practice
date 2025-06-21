@@ -1,0 +1,139 @@
+.containerTovar{
+    width: 1360px;
+    height: 576px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+
+    h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    }
+}
+.imageTovar{
+    width: 780px;
+    height: 572px;    
+    img{
+        width: 780px;
+        height: 572px;  
+    }
+}
+.overviewTovar{
+    width: 548px;
+    height: 574px;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+.priceTovar{
+    margin-top: 32px;
+}
+.oldPrice{
+    color: rgba(139, 139, 139, 1);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 52px;
+    text-align: left;
+    text-decoration-line: line-through;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.newPrice{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-right: 32px;
+}
+
+.containerCount{
+    display: flex;
+    align-items: center;
+    width: 548px;
+    height: 58px;
+    margin-top: 32px;
+}  
+
+.countTovar{
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 200px;
+    button{
+        flex: 1;
+        border: 1px solid #DDDDDD;
+        border-radius: 5px;
+        color: #8B8B8B;
+        background: none;
+        font-size: 50px;
+    }
+}
+
+.count{
+        flex: 2;
+        padding: 15px 0;
+        gap: 0px;
+        opacity: 0px;
+        border-radius: 5px;
+        color: #8B8B8B;
+        background: none;
+        border: 1px solid #DDDDDD;
+        p{
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+        }
+}
+
+.btnTovar{
+    margin-left: 32px;
+    button{
+        width: 316px;
+        height: 58px;
+        background-color: rgba(51, 153, 51, 1);
+        color: white;
+        border-radius: 5px;
+        border: none;
+
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+}
+
+.descriptionTovar{
+    h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    }
+    p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    }
+}

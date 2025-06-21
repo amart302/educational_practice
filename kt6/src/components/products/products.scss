@@ -1,0 +1,219 @@
+*{
+    a{
+        text-decoration: none;
+        color: #282828;
+    }
+}
+.sort{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    p{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        padding: 5px 0px 5px 0px;   
+    }
+    .filterPrice, .filterDiscount, .sorted{
+        display: flex;
+        height: 36px;
+        column-gap: 16px;
+    }
+    button{
+        width: 140px;
+        height: 36px;
+        color: black;
+        border-radius: 5px;
+        padding: 5px 10px;
+        border: 1px solid rgba(221, 221, 221, 1);
+        cursor: pointer;
+    }
+}
+
+.filterPrice{
+    input{
+        width: 80px;
+        color: black;
+        border-radius: 5px;
+        padding: 8px 16px 8px 16px;
+        border: 1px solid rgba(221, 221, 221, 1);
+    }
+}
+.filterDiscount{
+    input{
+        width: 36px;
+        height: 36px;
+        border: 1px solid rgba(221, 221, 221, 1);
+    }
+}
+.sorted{
+    select{
+        width: 146px;
+        border-radius: 5px;
+        padding: 8px 16px 8px 16px;
+        border: 1px solid rgba(221, 221, 221, 1);
+    }
+}
+
+.productsTitle{
+    h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    }
+}
+.containerCard{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.sale
+.saleTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 1360px;
+    margin-top: 80px;
+
+    h1{
+        color: rgba(40, 40, 40, 1);
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 70.4px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: center;
+        color: rgba(139, 139, 139, 1);
+    }
+    hr{
+        width: 1093px;
+        background-color:rgba(139, 139, 139, 1);
+    }
+}
+
+    .salehr{
+        display: flex;
+        align-items: center;
+        padding: 18px 0px 8px 26px
+    }
+
+    .containerSaleCard{
+        display: flex;
+        gap: 32px;
+        justify-content: center;
+        margin: auto;
+        width: 1360px;
+    }
+    
+    .itemCard{
+        width: 316px;
+        height: 422px;
+        border-radius: 10px;
+        border: 1px solid rgba(139, 139, 139, 1);
+        overflow: hidden;
+        position: relative;
+        
+        &__overflow {
+            width: 100%;
+            position: absolute;
+            top: 205px;
+            opacity: 0.2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover {
+                opacity: 1;
+            }
+
+            button {
+             position: relative;
+             width: 284px;
+             height: 58px;
+             padding: 16px 32px 16px 32px;
+             gap: 10px;
+             border-radius: 5px;
+             color: #fff;
+             font-size: 17px;
+             border: none;
+             background: #339933;
+             cursor: pointer;
+             transition: background-color 0.5s ease;
+
+             &:hover {
+                background: #111;
+             }
+            }
+        }
+
+        img{
+            width: 100%;
+            height: 284px;
+            border-radius: 10px 10px 0px 0px;
+            border-bottom: 1px solid rgb(139, 139, 139);
+        }
+
+        p{
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 20px;
+            text-align: left; 
+            white-space: nowrap; 
+            overflow: hidden; 
+            text-overflow: ellipsis;
+            padding: 16px 32px
+        }
+
+        h1{
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 44px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            padding: 0px 16px 16px 32px;
+        }
+        
+        h2{
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 26px;
+            text-align: left;
+            text-decoration-line: line-through;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: rgba(139, 139, 139, 1);
+            padding: 16px 73px 2px 0px;
+        }
+        span{
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 26px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+            width:  67px;
+            height: 34px;
+            padding: 4px 8px 4px 8px;
+            gap: 10px;
+            border-radius: 5px;
+            opacity: 0px;
+
+        }
+    }
+

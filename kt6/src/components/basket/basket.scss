@@ -1,0 +1,305 @@
+.empty{
+    margin: 0 auto;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.containerBasket{
+    width: 1360px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    }
+}
+.basketHeader{
+    width: 1360px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    }
+
+    button{
+        
+            padding: 10px 20px;
+            background: rgba(221, 221, 221, 1);
+            color: black;
+            border: 1px solid rgba(241, 243, 244, 1);
+            cursor: pointer;
+            font-size: 20px;
+    }
+}
+.basketContainer {
+    width: 1360px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 40px;
+    display: flex;
+  }
+  
+  .itemhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 26px;
+  }
+  .itemRemove{
+    margin-right: 32px; 
+    width: 24px;
+    height: 24px;
+    color: black;
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    button{
+        padding: 10px 20px;
+
+    }
+  }
+  .orderDetails {
+    width: 548px;
+    height: 582px;
+    border-radius: 10px;
+    background-color: rgba(241, 243, 244, 1);
+    margin-left: 32px;
+    h2 {
+      margin-top: 32px;
+      margin-left: 32px;
+    }
+    p{
+    color: rgba(139, 139, 139, 1);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 52px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    }
+    .priceInfo {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+  
+      .originalPrice {
+        text-decoration: line-through;
+        color: #6c757d;
+      }
+  
+      .discountedPrice {
+        color: #28a745;
+      }
+    }
+  
+    .itemCount, .totalPrice {
+        margin-top: 24px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+  }
+  .totalPrice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+    }
+}
+  .cartItems {
+    display: flex;
+    flex-direction: column;
+    width: 780px;
+    height: auto;
+    .cartItem {
+      width: 780px;
+      height: 180px;
+    border-radius: 10px;
+
+      background-color: #f8f9fa;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    border: 1px solid rgba(221, 221, 221, 1);
+      .itemImage {
+        width: 200px;
+        max-height: 170px;
+        border-right: 1px solid rgba(221, 221, 221, 1);
+        padding: 5px 5px;
+      }
+  
+      .itemInfo {
+        flex-grow: 1;
+        width: 200px;
+        margin-left: 32px;
+        .itemDetails{
+                display: flex;
+                align-items: center;
+                width: 516px;
+                height: 58px;
+                margin-top: 32px;
+        }
+      }
+    }
+  }
+  .itemName{
+    display: flex;
+    width: 200px;
+    height: 58px;
+    button{
+        flex: 1;
+        border: 1px solid #DDDDDD;
+        border-radius: 5px;
+        color: #8B8B8B;
+        background: none;
+        font-size: 50px;
+    }
+  }
+  .itemPrice{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 44px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        margin-left: 32px;
+        margin-right: 16px;
+  }
+  .orderSummary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  
+  }
+
+.containerFeedback{
+    width: 484px;
+    height: 296px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 32px;
+    align-items: center;
+    justify-content: center;
+}
+.feedback{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+
+
+    input{
+        width: 484px;
+        height: 58px;
+        border-radius: 5px;
+        border: 1px solid rgba(221, 221, 221, 1);
+        margin-bottom: 16px;
+
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        padding: 0px 0px 0px 16px;
+    }
+    ::placeholder{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        padding: 0px 0px 0px 16px;
+    }
+    button{
+        width: 484px;
+        height: 58px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 5px;
+
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+}
+
+
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+    h2 {
+      margin-bottom: 10px;
+    }
+  
+    button {
+      padding: 10px 20px;
+      background-color: #28a745;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+  
+      &:hover {
+        background-color: #316e3f;
+      }
+    }
+  }
+  

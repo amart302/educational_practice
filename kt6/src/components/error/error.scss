@@ -1,0 +1,76 @@
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+     
+}
+p{
+    color: rgba(139, 139, 139, 1);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+button{
+    width: 209px;
+    height: 58px;
+    padding: 16px 56px 16px 56px;
+    gap: 10px;
+    border-radius: 5px;
+    opacity: 0px;
+    background-color: rgba(51, 153, 51, 1);
+    border: none;
+    color: white;
+    cursor: pointer;
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+}
+
+.containerError{
+    width:690px;
+    height:530px
+}
+.imgError{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.i4{
+
+img{
+   width: 180px;
+   height: 245px; 
+}
+}
+
+.i0{
+padding: 0px 8px 0px 8px;
+img{
+    width: 300px;
+    height: 270px;
+}
+}
+
+.titleError{
+    margin-top: 16px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-row-gap: 16px;
+}
